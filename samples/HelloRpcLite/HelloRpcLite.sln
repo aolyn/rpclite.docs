@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6F2B81C-E1C3-413C-9394-D799C01C3A7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B56A258-30EE-41F7-BA64-F78F72CEAEB6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetFx", "NetFx", "{72BA896F-B3A6-4000-BFA1-FDD18B8A4373}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{1D2F1F2B-3397-4901-8AF7-40487BFDD435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRpcLiteClient", "src\HelloRpcLiteClient\HelloRpcLiteClient.csproj", "{D39B0FD8-ADDD-4F89-BA50-EFD050C9705A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRpcLiteService", "src\HelloRpcLiteService\HelloRpcLiteService.csproj", "{2D48B15A-1603-4C94-B920-79AC76448739}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloRpcLiteServiceCore", "src\HelloRpcLiteServiceCore\HelloRpcLiteServiceCore.xproj", "{50B6CA09-15BB-4308-9600-1C79E47E9924}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloRpcLiteClientCore", "src\HelloRpcLiteClientCore\HelloRpcLiteClientCore.xproj", "{F1039045-A960-4AFA-AA11-E8D46F80B8C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D39B0FD8-ADDD-4F89-BA50-EFD050C9705A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39B0FD8-ADDD-4F89-BA50-EFD050C9705A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39B0FD8-ADDD-4F89-BA50-EFD050C9705A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39B0FD8-ADDD-4F89-BA50-EFD050C9705A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D48B15A-1603-4C94-B920-79AC76448739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D48B15A-1603-4C94-B920-79AC76448739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D48B15A-1603-4C94-B920-79AC76448739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D48B15A-1603-4C94-B920-79AC76448739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B6CA09-15BB-4308-9600-1C79E47E9924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B6CA09-15BB-4308-9600-1C79E47E9924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B6CA09-15BB-4308-9600-1C79E47E9924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B6CA09-15BB-4308-9600-1C79E47E9924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1039045-A960-4AFA-AA11-E8D46F80B8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1039045-A960-4AFA-AA11-E8D46F80B8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1039045-A960-4AFA-AA11-E8D46F80B8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1039045-A960-4AFA-AA11-E8D46F80B8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72BA896F-B3A6-4000-BFA1-FDD18B8A4373} = {F6F2B81C-E1C3-413C-9394-D799C01C3A7E}
+		{1D2F1F2B-3397-4901-8AF7-40487BFDD435} = {F6F2B81C-E1C3-413C-9394-D799C01C3A7E}
+		{D39B0FD8-ADDD-4F89-BA50-EFD050C9705A} = {72BA896F-B3A6-4000-BFA1-FDD18B8A4373}
+		{2D48B15A-1603-4C94-B920-79AC76448739} = {72BA896F-B3A6-4000-BFA1-FDD18B8A4373}
+		{50B6CA09-15BB-4308-9600-1C79E47E9924} = {1D2F1F2B-3397-4901-8AF7-40487BFDD435}
+		{F1039045-A960-4AFA-AA11-E8D46F80B8C6} = {1D2F1F2B-3397-4901-8AF7-40487BFDD435}
+	EndGlobalSection
+EndGlobal
