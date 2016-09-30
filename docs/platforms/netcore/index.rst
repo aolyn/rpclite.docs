@@ -1,11 +1,9 @@
 在.Net Core中使用RpcLite
 ===========================================================
 
-These 101 tutorials require no previous knowledge of Entity Framework (EF) or Visual Studio. They will take you step-by-step through creating a simple application that queries and saves data from a database.
+在使用本教程前需要具体使用Visual Studio创建项目的相关知识。
 
-Entity Framework can create a model based on an existing database, or create a database for you based on your model. The following tutorials will demonstrate both of these approaches using a Console Application. You can use the techniques learned in these tutorials in any application that targets Full .NET, including WPF and WinForms.
-
-Available Tutorials
+可用教程
 -------------------
 
 .. toctree::

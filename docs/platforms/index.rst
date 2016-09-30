@@ -1,4 +1,4 @@
-使用入门
+入门教程
 ===============
 
 要使用RpcLite提供服务或调用其它服务首先要创建AppHost，创建AppHost需要RpcConfig参数。RpcConfig有两种生成方式：从配置文件读取、通过Fluent风格从ConfigBuilder创建。在本指南中主要通过Fluent风格创建。
