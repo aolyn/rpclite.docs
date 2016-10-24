@@ -5,6 +5,10 @@
 
 下面的文档会说明在不同平台下如何使用RpcLite。
 
+
+教程中涉及到的Demo源码可从github上下载，`下载地址 <https://github.com/aolyn/rpclite.docs/tree/master/samples/HelloRpcLite>`_
+
+
 .. toctree::
   :titlesonly:
   :caption: 默认支持的平台

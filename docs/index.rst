@@ -8,6 +8,10 @@ RpcLite
 
     intro
     platforms/index
+    theory/index
+    config/index
+    advanced/index
+    merops/index
 
 
 ..

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Entity Framework documentation build configuration file, created by
+# RpcLite Documentation build configuration file, created by
 # sphinx-quickstart on Thu May 28 14:14:28 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -52,9 +52,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Entity Framework Core'
-copyright = '%d Microsoft' % (date.today().year)
-author = 'Microsoft'
+project = 'RpcLite'
+copyright = '%d Aolyn' % (date.today().year)
+author = 'Aolyn'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -129,7 +129,7 @@ if not on_rtd:
 
 def setup(app):
   app.add_stylesheet('custom.css')
-  app.add_javascript('wedc.js')
+#  app.add_javascript('wedc.js')
 
 #html_theme = 'default'
 
@@ -155,7 +155,7 @@ def setup(app):
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = '_static/favicon.ico'
+html_favicon = '_static/favicon.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -223,7 +223,7 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'EntityFrameworkdoc'
+htmlhelp_basename = 'RpcLiteDoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -245,8 +245,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'EntityFramework.tex', 'Entity Framework Documentation',
-   'Microsoft', 'manual'),
+  (master_doc, 'RpcLite.tex', 'RpcLite Documentation',
+   'Aolyn', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -275,7 +275,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'entityframework', 'Entity Framework Core Documentation',
+    (master_doc, 'rpclite', 'RpcLite Documentation',
      [author], 1)
 ]
 
@@ -289,8 +289,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'EntityFramework', 'Entity Framework Core Documentation',
-   author, 'EntityFramework', 'One line description of project.',
+  (master_doc, 'RpcLite', 'RpcLite Documentation',
+   author, 'RpcLite', 'One line description of project.',
    'Miscellaneous'),
 ]
 
