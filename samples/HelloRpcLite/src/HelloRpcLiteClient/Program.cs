@@ -1,6 +1,6 @@
 ﻿using System;
-using RpcLite.AspNet;
 using RpcLite.Client;
+using RpcLite.Config;
 
 namespace HelloRpcLiteClient
 {
@@ -9,7 +9,7 @@ namespace HelloRpcLiteClient
 		static void Main(string[] args)
 		{
 			RpcInitializer.Initialize(builder => builder
-					.UseClient<IProductService>()
+					.UseClient<IProductService>("ProductService")
 			);
 
 			var serviceAddress = "http://localhost:11651/api/service/";
