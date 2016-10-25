@@ -9,7 +9,7 @@
       "type": "platform",
       "version": "1.0.1"
     },
-    "RpcLite": "1.0.2.4"  },
+    "RpcLite": "1.0.2.6"},
 
   "frameworks": {
     "netcoreapp1.0": {
