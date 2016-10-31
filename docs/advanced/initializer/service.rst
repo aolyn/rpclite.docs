@@ -1,4 +1,4 @@
-Full .Net 服务端
+﻿Full .Net 服务端
 ==============================
 
 配置方式与客户端一样。只是需要在web.config中添加RpcLiteHttpModule

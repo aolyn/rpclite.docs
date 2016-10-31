@@ -1,4 +1,4 @@
-自定义Registry
+﻿自定义Registry
 ===============
 
 自定义Registry需要实现IRegistry和IRegistryFactory接口，IRegistryFactory用于创建IRegistry，IRegistryFactory需要有一个public的无参构造函数。

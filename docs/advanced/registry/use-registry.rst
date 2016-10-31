@@ -1,4 +1,4 @@
-使用Registry
+﻿使用Registry
 ===============
 
 通过Fluent API创建AppHost时调用UseRegistry来使用Registry，方法定义如下：

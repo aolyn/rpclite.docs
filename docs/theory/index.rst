@@ -1,4 +1,4 @@
-原理介绍
+﻿原理介绍
 ===============
 
 .. image:: ../_static/archecture.png

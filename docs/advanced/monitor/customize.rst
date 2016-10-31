@@ -1,4 +1,4 @@
-自定义Monitor
+﻿自定义Monitor
 ===============
 
 自定义Monitor只需要实现IMonitorFactory、IMonitor、IClientMonitorSession、IServiceMonitorSession 4个接口，IClientMonitorSession、IServiceMonitorSession这两个接口可以根据需要只实现其中一个，如果不需要监控只需在IMonitor返回null即可不能抛异常。

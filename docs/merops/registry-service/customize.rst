@@ -1,4 +1,4 @@
-自定义Formatter
+﻿自定义Formatter
 ===============
 
 自定义Formatter只需要实现IFormatter接口。

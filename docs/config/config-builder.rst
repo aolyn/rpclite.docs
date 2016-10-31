@@ -1,4 +1,4 @@
-RpcConfigBuilder
+﻿RpcConfigBuilder
 ===============
 
 创建RpcConfigBuilder对象后可以使用UseXXX方法添加相关的配置项，最后通过Build方法生成RpcConfig对象。RpcConfig对象作为的参数创建AppHost。

@@ -1,4 +1,4 @@
-使用第三方Formatter
+﻿使用第三方Formatter
 ==============================
 
 使用第三方Formatter和前一小节一样有两种方式。第一种方式直接设置RpcClient.Formatter。

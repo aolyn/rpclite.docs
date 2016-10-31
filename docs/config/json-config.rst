@@ -1,4 +1,4 @@
-Json配置
+﻿Json配置
 ===============
 
 Json配置文件相对RpcConfigBuilder要复杂，详细说明稍后补齐。

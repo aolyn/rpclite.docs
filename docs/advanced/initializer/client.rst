@@ -1,4 +1,4 @@
-客户端
+﻿客户端
 ===============
 
 对于Full .Net和.Net Core仅使用客户端时始化方式相同，都是使用RpcLite.Config.RpcInitializer类中的Initialize方法，常用的有如下两个重载。

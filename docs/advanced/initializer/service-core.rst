@@ -1,4 +1,4 @@
-.Net Core 服务端
+﻿.Net Core 服务端
 ===============
 
 .Net Core中服务端默认支持Asp Net Core初始化代放在Startup.cs中。
