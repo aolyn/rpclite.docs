@@ -28,7 +28,28 @@ namespace HelloRpcLiteServiceCore
 				app.UseDeveloperExceptionPage();
 			}
 
-			app.Run(async (context) => { await context.Response.WriteAsync("Hello World!"); });
+			var indexHtml = @"
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset='utf-8' />
+</head>
+<body>
+	<style>
+		a:visited {
+			color: blue;
+		}
+
+		body {
+			font-size: x-large;
+		}
+	</style>
+	<a href='api/service/'>Service Info</a>
+</body>
+</html>
+";
+			app.Run(async (context) => { await context.Response.WriteAsync(indexHtml); });
 		}
 	}
 }
