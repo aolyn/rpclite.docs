@@ -50,7 +50,7 @@
 * 新建类文件IProductService.cs
 * 输入以下内容
 
-.. includesamplefile:: HelloRpcLite/src/HelloRpcLiteServiceCore/IProductService.cs
+.. includesamplefile:: ../../../samples/HelloRpcLite/src/HelloRpcLiteServiceCore/IProductService.cs
         :language: c#
         :linenos:
 
@@ -60,7 +60,7 @@
 * 新建类文件ProductService.cs
 * 输入以下内容
 
-.. includesamplefile:: HelloRpcLite/src/HelloRpcLiteServiceCore/ProductService.cs
+.. includesamplefile:: ../../../samples/HelloRpcLite/src/HelloRpcLiteServiceCore/ProductService.cs
         :language: c#
         :linenos:
 
@@ -83,7 +83,7 @@
 
 完整代码如下
 
-.. includesamplefile:: HelloRpcLite/src/HelloRpcLiteServiceCore/Startup.cs
+.. includesamplefile:: ../../../samples/HelloRpcLite/src/HelloRpcLiteServiceCore/Startup.cs
         :language: c#
         :linenos:
 

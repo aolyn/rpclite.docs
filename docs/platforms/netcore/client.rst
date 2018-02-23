@@ -90,7 +90,7 @@
 
 *完整代码如下*
 
-.. includesamplefile:: HelloRpcLite/src/HelloRpcLiteClientCore/IProductService.cs
+.. includesamplefile:: ../../../samples/HelloRpcLite/src/HelloRpcLiteClientCore/IProductService.cs
         :language: c#
         :linenos:
 
