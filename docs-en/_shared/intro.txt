@@ -1,0 +1,14 @@
+RpcLite is a lightweight, easy to use, scalable, extensiable, cross-platform SOA framework.
+
+The most basic function of SOA is to provide remote service calls,  there are WebService, WCF, ServiceStack, WebApi etc. on .Net platform. These include only RPC, compare to these RpcLite also provides registry service, management system, monitor, load balancing, multi-transport protocol support.
+
+RpcLite fully considered extensiable when design, the main components are abstracted and provided the default implementation, users can extend or replace the default components according to their requirement to implement custom functions.
+
+RpcLite supports Full .Net Framework, .Net Core, Mono. In this documentaion will introduce usage on Full. Net Framework and .Net Core.
+
+Archecture Summary
+-------------------------
+
+RpcLite contains Service and Client.
+
+Entry point of RpcLite is AppHost，AppHost contains ServiceHost(which used to provide service) and ClientFactory (which used to invoke service), besides there are Monitor, Invoker, Registry, Formatter, Filter etc.

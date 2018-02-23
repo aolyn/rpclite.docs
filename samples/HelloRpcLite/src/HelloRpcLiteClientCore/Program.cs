@@ -12,7 +12,7 @@ namespace HelloRpcLiteClientCore
 					.UseClient<IProductService>("ProductService")
 			);
 
-			var serviceAddress = "http://localhost:11651/api/service/";
+			var serviceAddress = "http://localhost:5000/api/service/";
 			var client = ClientFactory.GetInstance<IProductService>(serviceAddress);
 
 			try

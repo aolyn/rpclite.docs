@@ -12,9 +12,10 @@
 		Task<GetServiceInfoResponse> GetServiceInfoAsync(GetServiceInfoRequest request);
 	}
 
-.. toctree::
-    :titlesonly:
+.. 
+	.. toctree::
+		:titlesonly:
 
-    set-formatter
-    use-third-party
-    customize
+		set-formatter
+		use-third-party
+		customize

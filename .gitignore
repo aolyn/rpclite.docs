@@ -200,3 +200,4 @@ FakesAssemblies/
 project.lock.json
 samples/**/wwwroot/lib/
 venv
+.vscode/

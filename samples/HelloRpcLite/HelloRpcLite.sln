@@ -1,14 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6F2B81C-E1C3-413C-9394-D799C01C3A7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B56A258-30EE-41F7-BA64-F78F72CEAEB6}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetFx", "NetFx", "{72BA896F-B3A6-4000-BFA1-FDD18B8A4373}"
 EndProject
@@ -18,9 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRpcLiteClient", "src\H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloRpcLiteService", "src\HelloRpcLiteService\HelloRpcLiteService.csproj", "{2D48B15A-1603-4C94-B920-79AC76448739}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloRpcLiteServiceCore", "src\HelloRpcLiteServiceCore\HelloRpcLiteServiceCore.xproj", "{50B6CA09-15BB-4308-9600-1C79E47E9924}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloRpcLiteServiceCore", "src\HelloRpcLiteServiceCore\HelloRpcLiteServiceCore.csproj", "{50B6CA09-15BB-4308-9600-1C79E47E9924}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloRpcLiteClientCore", "src\HelloRpcLiteClientCore\HelloRpcLiteClientCore.xproj", "{F1039045-A960-4AFA-AA11-E8D46F80B8C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloRpcLiteClientCore", "src\HelloRpcLiteClientCore\HelloRpcLiteClientCore.csproj", "{F1039045-A960-4AFA-AA11-E8D46F80B8C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,5 +52,8 @@ Global
 		{2D48B15A-1603-4C94-B920-79AC76448739} = {72BA896F-B3A6-4000-BFA1-FDD18B8A4373}
 		{50B6CA09-15BB-4308-9600-1C79E47E9924} = {1D2F1F2B-3397-4901-8AF7-40487BFDD435}
 		{F1039045-A960-4AFA-AA11-E8D46F80B8C6} = {1D2F1F2B-3397-4901-8AF7-40487BFDD435}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DD41DD3-A541-47C5-811B-895456608965}
 	EndGlobalSection
 EndGlobal

@@ -20,7 +20,6 @@ namespace HelloRpcLiteServiceCore
 			//config RpcLite just one statement
 			app.UseRpcLite(builder => builder
 					.UseService<ProductService>("ProductService", "api/service/")
-					.UseServicePaths("api/")
 			);
 
 			if (env.IsDevelopment())
